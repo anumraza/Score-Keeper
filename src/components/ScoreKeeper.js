@@ -60,14 +60,14 @@ const ScoreKeeper = () => {
                 onClick={handlePlayerOneScore} 
                 disabled={isGameOver}
             >
-                +1 Player One
+                Player One
             </button>
             <button 
                 className="is-info button" 
                 onClick={handlePlayerTwoScore} 
                 disabled={isGameOver}
             >
-                +1 Player Two
+                Player Two
             </button>
             <button 
                 className="is-danger button" 

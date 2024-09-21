@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-  padding: 20px 20px;
+  padding: 2vh 2vh;
   border: 1px solid black;
   height: 250px;
   border: 2px solid rgb(163, 141, 141);
@@ -37,11 +37,12 @@ body {
 }
 button {
   height: 45px;
-  width: 95px;
+  width: 11vh;
   border-radius: 10px;
   border: 1px solid rgb(137, 141, 126);
-  font-weight: 600;
+  font-weight: 400;
   padding-top: 5px;
+
   padding-bottom: 5px;
   background-color: rgb(181, 232, 204);
 }
@@ -63,12 +64,21 @@ select {
   width: 55px;
   height: 35px;
   border-radius: 20px;
-  background-color: rgb(205, 177, 139);
+  background-color: rgb(6, 6, 6);
   text-align: center;
   font-weight: 800;
   font-size: 1rem;
   color: white;
   border: 1px solid rgb(137, 141, 126);
+}
+select.active {
+  border: 2px solid rgb(137, 141, 126);
+}
+select option {
+  background-color: white; /* Option background */
+  color: black;
+  border: 1px solid bisque;
+  box-shadow: none;
 }
 .notification {
   width: 100%;

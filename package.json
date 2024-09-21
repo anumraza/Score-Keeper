@@ -2,6 +2,7 @@
   "name": "my-new-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://anumraza.github.io/Score-Keeper", 
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -42,6 +43,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://anumraza.github.io/Score-Keeper"
+    "url": "https://github.com/anumraza/Score-Keeper"  
   }
 }
