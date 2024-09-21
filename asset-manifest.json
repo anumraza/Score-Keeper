@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1cfc7e7c.css",
+    "main.js": "/static/js/main.74f5ed5f.js",
+    "static/js/453.0a9f4b6c.chunk.js": "/static/js/453.0a9f4b6c.chunk.js",
+    "static/media/pingpong.jpg": "/static/media/pingpong.4867e3581110a163e935.jpg",
+    "index.html": "/index.html",
+    "main.1cfc7e7c.css.map": "/static/css/main.1cfc7e7c.css.map",
+    "main.74f5ed5f.js.map": "/static/js/main.74f5ed5f.js.map",
+    "453.0a9f4b6c.chunk.js.map": "/static/js/453.0a9f4b6c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1cfc7e7c.css",
+    "static/js/main.74f5ed5f.js"
+  ]
+}
