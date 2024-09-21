@@ -1,0 +1,79 @@
+body {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+
+  height: 100vh; /* Make the body take full viewport height */
+  margin: 0;
+  padding-top: 30px;
+}
+
+.container {
+  padding: 20px 20px;
+  border: 1px solid black;
+  height: 250px;
+  border: 2px solid rgb(163, 141, 141);
+  border-radius: 10px;
+}
+
+.title {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+  color: rgb(95, 82, 66);
+}
+.count {
+  display: flex;
+  justify-content: space-evenly;
+  color: rgb(79, 74, 74);
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+button {
+  height: 45px;
+  width: 95px;
+  border-radius: 10px;
+  border: 1px solid rgb(137, 141, 126);
+  font-weight: 600;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(181, 232, 204);
+}
+.is-danger {
+  width: 60px;
+  background-color: rgb(209, 14, 14);
+  color: white;
+}
+h1 + p {
+  color: rgb(14, 14, 14);
+  font-size: 1rem;
+  font-weight: 600;
+}
+.label {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+select {
+  width: 55px;
+  height: 35px;
+  border-radius: 20px;
+  background-color: rgb(205, 177, 139);
+  text-align: center;
+  font-weight: 800;
+  font-size: 1rem;
+  color: white;
+  border: 1px solid rgb(137, 141, 126);
+}
+.notification {
+  width: 100%;
+  color: rgb(185, 12, 12);
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-top: 20px;
+}

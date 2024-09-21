@@ -1,25 +1,26 @@
-import logo from './logo.svg';
+import React from 'react';
+import ScoreKeeper from './components/ScoreKeeper';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+
+const App = () => {
+    return (
+        <div className="App">
+            <section className="section">
+                <div className="container1">
+                    <div className="card">
+              <header className="card-header">
+                <div className='pingimg'></div>
+                            <p className="card-header-title">Ping Pong Score Keeper</p>
+                        </header>
+                        <div className="card-content">
+                            <ScoreKeeper />
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    );
+};
 
 export default App;
